@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+		<link rel="stylesheet" href="../plugin/font-awesome-4.7.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<img height='100px' src="../img/picto-travel-logo.png" class="bg-white" alt="">
+					<h1>Rapport de stage</h1>
+					<h3>Franck Hourdin</h3>
+				</section>
+
+				<section>
+					<section>
+						<h1>1. Présentation personnelle</h1>
+					</section>
+					<section>
+						<h1>Musicien <i class="fa fa-music" aria-hidden="true"></i></h1>
+						<hr>
+						<h1>Développeur <i class="fa fa-laptop" aria-hidden="true"></i></h1>
+					</section>
+					<section>
+						<h2>Franck Hourdin</h2>
+						<h4>Sweet-sounding Developer</h4>
+						<img height="200px" class="no-bg br10" src="img/self.jpeg" alt="">
+						<ul>
+							<li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> https://www.linkedin.com/in/franck-hourdin/</li>
+							<li><i class="fa fa-github-square fa-2x" aria-hidden="true"></i> https://github.com/Bakhah</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>2. Présentation de Pictotravel</h1>
+					</section>
+					<section id="fragments">
+						<h2>Le handicap en France</h2>
+						<ul>
+							<li class="fragment"><i class="fa fa-wheelchair fa-3x" aria-hidden="true"></i><span class="blue bold">12 millions</span> de personnes en situation de handicap</li>
+							<li class="fragment"><i class="fa fa-blind fa-3x" aria-hidden="true"></i><span class="blue bold">12 millions</span> de seniors de 65 ans et plus, 20 millions en 2025</li>
+							<li class="fragment"><i class="fa fa-child fa-3x" aria-hidden="true"></i><span class="blue bold">2 millions</span> d’enfants de moins de trois ans </li>
+						</ul>
+					</section>
+					<section data-background='#5a9ad1' id="fragments">
+						<img height='100px' src="../img/picto-travel-logo.png" class="bg-white" alt="">
+						<h2><i class="fa fa-wheelchair" aria-hidden="true"></i> Pour l'utilisateur</h2>
+
+						<p class="fragment"> " Le moteur de recherche de l'accessibilité pour les personnes en situation de handicap "</p>
+					</section>
+					<section data-background='#f4d23e' id="fragments">
+						<img height='100px' src="../img/picto-access-logo.png" alt="">
+						<h2><i class="fa fa-briefcase" aria-hidden="true"></i> Pour le professionnel</h2>
+						<ul>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Contrôler</span> l’accessibilité de votre établissement en temps réel.</p></li>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Mesurer</span> la satisfaction de vos clients sur des actions spécifiques à l’accessibilité.</p></li>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Valoriser</span> vos investissements humains, techniques et financiers.</p></li>
+						</ul>
+					</section>
+					<section data-background-iframe="https://pictotravel.fr/cards/map?page=1&lat=50.62925&lng=3.057256000000052&zoom=16">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>3. Mon rôle au sein de picto</h1>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>3. Présentation d'une mission</h2>
+					</section>
+					<section>
+						<h2>Problématique</h2>
+					</section>
+					<section>
+						<h3>Ancienne page d'accueil</h3>
+					</section>
+					<section>
+						<h3>Nouvelle page d'accueil</h3>
+					</section>
+				</section>
+
+				<section>
+					Conclusion
+				</section>
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: '../plugin/markdown/marked.js' },
+					{ src: '../plugin/markdown/markdown.js' },
+					{ src: '../plugin/notes/notes.js', async: true },
+					{ src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+				backgroundTransition: 'zoom'
+			});
+		</script>
+	</body>
+</html>
