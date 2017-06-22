@@ -45,6 +45,7 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.14.1",
+    "grunt-cli": "^1.2.0",
     "morgan": "^1.8.2"
   }
 }
