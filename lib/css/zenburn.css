@@ -90,6 +90,7 @@ based on dark.css by Ivan Sagalaev
 .no-bg {
   background-color: transparent !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 .blue {
