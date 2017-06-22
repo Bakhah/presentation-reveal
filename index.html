@@ -27,40 +27,74 @@
 			<div class="slides">
 
 				<section>
-					<img src="img/picto-travel-logo.png" class="bg-white" alt="">
+					<img height='100px' src="img/picto-travel-logo.png" class="bg-white" alt="">
 					<h1>Rapport de stage</h1>
 					<h3>Franck Hourdin</h3>
 				</section>
 
 				<section>
 					<section>
-						<h1>Qui suis-je ?</h1>
+						<h1>1. Présentation personnelle</h1>
 					</section>
 					<section>
 						<h1>Musicien <i class="fa fa-music" aria-hidden="true"></i></h1>
 						<hr>
 						<h1>Développeur <i class="fa fa-laptop" aria-hidden="true"></i></h1>
 					</section>
+					<section>
+						<h2>Franck Hourdin</h2>
+						<h4>Sweet-sounding Developer</h4>
+						<img height="200px" class="no-bg br10" src="img/self.jpeg" alt="">
+						<ul>
+							<li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> https://www.linkedin.com/in/franck-hourdin/</li>
+							<li><i class="fa fa-github-square fa-2x" aria-hidden="true"></i> https://github.com/Bakhah</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
 					<section>
-						<h1>Pictotravel ?</h1>
+						<h1>2. Présentation de Pictotravel</h1>
 					</section>
-					<section data-background-iframe="https://pictotravel.fr">
-						<h2>Yep !</h2>
+					<section id="fragments">
+						<h2>Le handicap en France</h2>
+						<ul>
+							<li class="fragment"><i class="fa fa-wheelchair fa-3x" aria-hidden="true"></i><span class="blue bold">12 millions</span> de personnes en situation de handicap</li>
+							<li class="fragment"><i class="fa fa-blind fa-3x" aria-hidden="true"></i><span class="blue bold">12 millions</span> de seniors de 65 ans et plus, 20 millions en 2025</li>
+							<li class="fragment"><i class="fa fa-child fa-3x" aria-hidden="true"></i><span class="blue bold">2 millions</span> d’enfants de moins de trois ans </li>
+						</ul>
 					</section>
-				</section>
+					<section data-background='#5a9ad1' id="fragments">
+						<img height='100px' src="img/picto-travel-logo.png" class="bg-white" alt="">
+						<h2><i class="fa fa-wheelchair" aria-hidden="true"></i> Pour l'utilisateur</h2>
 
-				<section>
-					Résumé de mon rôle au sein de picto
+						<p class="fragment"> " Le moteur de recherche de l'accessibilité pour les personnes en situation de handicap "</p>
+					</section>
+					<section data-background='#f4d23e' id="fragments">
+						<img height='100px' src="img/picto-access-logo.png" alt="">
+						<h2><i class="fa fa-briefcase" aria-hidden="true"></i> Pour le professionnel</h2>
+						<ul>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Contrôler</span> l’accessibilité de votre établissement en temps réel.</p></li>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Mesurer</span> la satisfaction de vos clients sur des actions spécifiques à l’accessibilité.</p></li>
+							<li class="fragment"><p class="dark-grey"><span class="bold">Valoriser</span> vos investissements humains, techniques et financiers.</p></li>
+						</ul>
+					</section>
+					<section data-background-iframe="https://www.w3.org/WAI/ER/tools/">
+
+					</section>
+					<section data-background-iframe="https://pictotravel.fr/cards/map?page=1&lat=50.62925&lng=3.057256000000052&zoom=16">
+					</section>
 				</section>
 
 				<section>
 					<section>
-						<h2>Présentation d'une mission</h2>
-						<hr>
-						<h1>Refonte des pages d'accueil</h1>
+						<h1>3. Mon rôle au sein de picto</h1>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>3. Présentation d'une mission</h2>
 					</section>
 					<section>
 						<h2>Problématique</h2>
@@ -92,7 +126,8 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				backgroundTransition: 'zoom'
 			});
 		</script>
 	</body>

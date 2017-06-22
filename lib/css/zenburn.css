@@ -91,3 +91,23 @@ based on dark.css by Ivan Sagalaev
   background-color: transparent !important;
   border: none !important;
 }
+
+.blue {
+  color: #5a9ad1;
+}
+
+.yellow {
+  color: #f4d23e;
+}
+
+.dark-grey {
+  color: #565c64 !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.br10 {
+  border-radius: 10px;
+}
