@@ -112,3 +112,7 @@ based on dark.css by Ivan Sagalaev
 .br10 {
   border-radius: 10px;
 }
+
+.m10px {
+  margin: 10px !important;
+}
